@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+
+
+#articles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+    padding: 10px;
+    
+}    
+
+
+.article-img{
+    width: 100%;
+    height: 50%;
+}
+
+
+#hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: wheat;
+    color: grey;
+    height: 70%;
+}
+
+.text-white{
+    text-decoration: none;
+    color: grey;
+}
+
+.search-button{
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    border-radius: 10px 10px; 
+    margin-bottom: 20px;
+}
+
+.search{
+    border: none;
+    padding: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    background-color: wheat;
+    border-radius: 10px 10px;
+}
+
+#articles h1 {
+    width: 100%;
+    color: teal;
+    /* background-color: wheat; */
+    padding: 10px 5px;
+    border: 1px ;
+    border-radius: 10px;
+    /* padding-bottom: 1rem; */
+}
+
+.nav{
+    width: 100%;
+    height: 70%;
+    padding: 20px;
+}
+
+.login{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input{
+    background-color: wheat;
+    width: 50%;
+    border-radius: 10px;
+}
+
+hr{
+    width: 100%;
+}
+
+footer{
+    height: 80vh;
+    width: 100vw;
+    background-color: wheat;
+}
+
+.footer-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
