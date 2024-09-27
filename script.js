@@ -23,7 +23,9 @@ fetch(
       articleH2.textContent = article.title;
       articleDiv.appendChild(articleH2);
 
-      
+
        document.querySelector("#articles").appendChild(articleDiv);
     }
   });
+
+  
